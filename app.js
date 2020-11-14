@@ -25,7 +25,7 @@ client.on('error', () => {
 client.on('data', srvMsg => {
     const fromServer = Buffer.from(srvMsg);
     const final = decoder.write(fromServer);
-    console.log(final.trim());
+    process.stdout.write(final);
 });
 
 client.connect(PORT, HOST);

@@ -1,8 +1,8 @@
 # NodeJS
-app/node_modules/
+node_modules/
 
 # WebStorm
-.idea/
+../.idea/
 
 # Mac OS
 .DS_Store

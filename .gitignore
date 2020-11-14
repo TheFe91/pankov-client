@@ -1,0 +1,11 @@
+# NodeJS
+node_modules/
+
+# WebStorm
+.idea/
+
+# Mac OS
+.DS_Store
+
+# Outputs
+build/
